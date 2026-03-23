@@ -1,0 +1,19 @@
+1- OTA
+
+idf.py build
+python -m esptool --chip esp32s3 --port COM6 --baud 921600 write_flash 0xB00000 "D:\ME\Project\Map_TFT\nav_tft_s3\build\ota_agent_main.bin"
+idf.py -p COM6 monitor
+
+
+2- MAIN
+
+python -m esptool --chip esp32s3 --port COM6 --baud 921600 write_flash 0x100000 "D:\ME\Project\Map_TFT\nav_tft_s3\me\test_python\nav_tft_s3.bin"
+
+python -m esptool --chip esp32s3 --port COM6 --baud 921600 write_flash 0x600000 "D:\ME\Project\Map_TFT\nav_tft_s3\me\test_python\nav_tft_s3.bin"
+
+python -m esptool --chip esp32s3 --port COM6 --baud 921600 write_flash 0x1000 "D:\ME\Project\Map_TFT\nav_tft_s3\build\bootloader\bootloader.bin" 0x8000 "D:\ME\Project\Map_TFT\nav_tft_s3\build\partition_table\partition-table.bin" 0xF000 "D:\ME\Project\Map_TFT\nav_tft_s3\build\phy_init_data.bin" 0x100000 "D:\ME\Project\Map_TFT\nav_tft_s3\build\nav_tft_s3.bin"
+
+
+3 - GEN CHECK UPDATE
+
+python gen_check_update.py --version 1.0.1 --raw-base https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.1

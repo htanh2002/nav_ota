@@ -1,0 +1,12 @@
+{
+  "code": 2101,
+  "message": "New firmware available",
+  "firmware": {
+    "version": "1.0.1",
+    "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.1/nav_tft_s3.bin",
+    "name": "nav_tft_s3.bin",
+    "sha256": "11587e946b76c97d15d392c9994e116a100b9f17a8c2a63e34b83a05ed56d6bf",
+    "size": 1908688
+  },
+  "timestamp": "2026-03-23T03:28:28Z"
+}
