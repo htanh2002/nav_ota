@@ -1,26 +1,37 @@
 {
   "code": 2101,
   "message": "Firmware manifest",
-  "latest": "1.0.1",
+  "latest": "1.0.2",
   "firmware": {
-    "version": "1.0.1",
-    "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.1/nav_tft_s3.bin",
+    "version": "1.0.2",
+    "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.2/nav_tft_s3.bin",
     "name": "nav_tft_s3.bin",
-    "label": "NAV-TFT-S3 v1.0.1",
+    "label": "NAV-TFT-S3 v1.0.2",
     "channel": "stable",
-    "notes": "New firmware available",
+    "notes": "Bản mới nhất",
     "sha256": "",
-    "size": 1908408,
-    "releasedAt": "2026-03-23T10:00:00Z"
+    "size": 0,
+    "releasedAt": "2026-04-01T10:00:00Z"
   },
   "firmwares": [
+    {
+      "version": "1.0.2",
+      "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.2/nav_tft_s3.bin",
+      "name": "nav_tft_s3.bin",
+      "label": "NAV-TFT-S3 v1.0.2",
+      "channel": "stable",
+      "notes": "Bản mới nhất",
+      "sha256": "",
+      "size": 0,
+      "releasedAt": "2026-04-01T10:00:00Z"
+    },
     {
       "version": "1.0.1",
       "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.1/nav_tft_s3.bin",
       "name": "nav_tft_s3.bin",
       "label": "NAV-TFT-S3 v1.0.1",
       "channel": "stable",
-      "notes": "Bản mới nhất hiện tại",
+      "notes": "Bản ổn định trước đó, có thể rollback",
       "sha256": "",
       "size": 1908408,
       "releasedAt": "2026-03-23T10:00:00Z"
@@ -31,11 +42,11 @@
       "name": "nav_tft_s3.bin",
       "label": "NAV-TFT-S3 v1.0.0",
       "channel": "stable",
-      "notes": "Bản cũ dùng để rollback nếu v1.0.1 lỗi",
+      "notes": "Bản rollback cũ hơn",
       "sha256": "",
       "size": 0,
       "releasedAt": "2026-03-01T10:00:00Z"
     }
   ],
-  "timestamp": "2026-03-23T10:00:00Z"
+  "timestamp": "2026-04-01T10:00:00Z"
 }
