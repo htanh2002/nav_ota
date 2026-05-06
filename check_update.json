@@ -20,7 +20,7 @@
       "name": "nav_tft_s3.bin",
       "label": "NAV-TFT-S3 v1.0.2",
       "channel": "stable",
-      "notes": "Bản mới nhất",
+      "notes": "Bản mới nhất, cập nhật driver màn hình I80 VÀ SPI",
       "sha256": "",
       "size": 0,
       "releasedAt": "2026-04-01T10:00:00Z"
