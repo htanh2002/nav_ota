@@ -1,12 +1,12 @@
 {
   "code": 2101,
   "message": "Firmware manifest",
-  "latest": "1.0.2",
+  "latest": "1.0.3",
   "firmware": {
-    "version": "1.0.2",
-    "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.2/nav_tft_s3.bin",
+    "version": "1.0.3",
+    "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.3/nav_tft_s3.bin",
     "name": "nav_tft_s3.bin",
-    "label": "NAV-TFT-S3 v1.0.2",
+    "label": "NAV-TFT-S3 v1.0.3",
     "channel": "stable",
     "notes": "Bản mới nhất",
     "sha256": "",
@@ -15,12 +15,23 @@
   },
   "firmwares": [
     {
+      "version": "1.0.3",
+      "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.3/nav_tft_s3.bin",
+      "name": "nav_tft_s3.bin",
+      "label": "NAV-TFT-S3 v1.0.3",
+      "channel": "stable",
+      "notes": "Bản mới nhất, cập nhật map full qua openstreetmap",
+      "sha256": "",
+      "size": 0,
+      "releasedAt": "2026-04-01T10:00:00Z"
+    },
+    {
       "version": "1.0.2",
       "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.2/nav_tft_s3.bin",
       "name": "nav_tft_s3.bin",
       "label": "NAV-TFT-S3 v1.0.2",
       "channel": "stable",
-      "notes": "Bản mới nhất, cập nhật driver màn hình I80 VÀ SPI",
+      "notes": "Cập nhật driver màn hình I80 và SPI",
       "sha256": "",
       "size": 0,
       "releasedAt": "2026-04-01T10:00:00Z"
