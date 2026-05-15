@@ -1,12 +1,12 @@
 {
   "code": 2101,
   "message": "Firmware manifest",
-  "latest": "1.0.3",
+  "latest": "1.0.0",
   "firmware": {
-    "version": "1.0.3",
-    "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.3/nav_tft_s3.bin",
+    "version": "1.0.0",
+    "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.0/nav_tft_s3.bin",
     "name": "nav_tft_s3.bin",
-    "label": "NAV-TFT-S3 v1.0.3",
+    "label": "NAV-TFT-S3 v1.0.0",
     "channel": "stable",
     "notes": "Bản mới nhất",
     "sha256": "",
@@ -15,45 +15,23 @@
   },
   "firmwares": [
     {
-      "version": "1.0.3",
-      "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.3/nav_tft_s3.bin",
-      "name": "nav_tft_s3.bin",
-      "label": "NAV-TFT-S3 v1.0.3",
-      "channel": "stable",
-      "notes": "Bản mới nhất, cập nhật map full qua openstreetmap",
-      "sha256": "",
-      "size": 0,
-      "releasedAt": "2026-04-01T10:00:00Z"
-    },
-    {
-      "version": "1.0.2",
-      "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.2/nav_tft_s3.bin",
-      "name": "nav_tft_s3.bin",
-      "label": "NAV-TFT-S3 v1.0.2",
-      "channel": "stable",
-      "notes": "Cập nhật driver màn hình I80 và SPI",
-      "sha256": "",
-      "size": 0,
-      "releasedAt": "2026-04-01T10:00:00Z"
-    },
-    {
-      "version": "1.0.1",
-      "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.1/nav_tft_s3.bin",
-      "name": "nav_tft_s3.bin",
-      "label": "NAV-TFT-S3 v1.0.1",
-      "channel": "stable",
-      "notes": "Bản ổn định trước đó, có thể rollback",
-      "sha256": "",
-      "size": 1908408,
-      "releasedAt": "2026-03-23T10:00:00Z"
-    },
-    {
       "version": "1.0.0",
       "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.0/nav_tft_s3.bin",
       "name": "nav_tft_s3.bin",
       "label": "NAV-TFT-S3 v1.0.0",
       "channel": "stable",
-      "notes": "Bản rollback cũ hơn",
+      "notes": "Bản mới nhất, cập nhật map full qua openstreetmap, map offline từ sdcard",
+      "sha256": "",
+      "size": 0,
+      "releasedAt": "2026-04-01T10:00:00Z"
+    },
+    {
+      "version": "0.0.0",
+      "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v0.0.0/nav_tft_s3.bin",
+      "name": "nav_tft_s3.bin",
+      "label": "NAV-TFT-S3 v0.0.0",
+      "channel": "stable",
+      "notes": "Bản lưu các icon vào flash cho thiết bị mới hoặc đã xóa chip",
       "sha256": "",
       "size": 0,
       "releasedAt": "2026-03-01T10:00:00Z"
