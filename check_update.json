@@ -1,12 +1,12 @@
 {
   "code": 2101,
   "message": "Firmware manifest",
-  "latest": "1.0.0",
+  "latest": "1.0.1",
   "firmware": {
-    "version": "1.0.0",
-    "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.0/nav_tft_s3.bin",
+    "version": "1.0.1",
+    "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.1/nav_tft_s3.bin",
     "name": "nav_tft_s3.bin",
-    "label": "NAV-TFT-S3 v1.0.0",
+    "label": "NAV-TFT-S3 v1.0.1",
     "channel": "stable",
     "notes": "Bản mới nhất",
     "sha256": "",
@@ -15,12 +15,23 @@
   },
   "firmwares": [
     {
+      "version": "1.0.1",
+      "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.1/nav_tft_s3.bin",
+      "name": "nav_tft_s3.bin",
+      "label": "NAV-TFT-S3 v1.0.1",
+      "channel": "stable",
+      "notes": "Bản mới nhất, cập nhật khởi động mà không cẩn SDcard, nâng cấp map route+",
+      "sha256": "",
+      "size": 0,
+      "releasedAt": "2026-04-01T10:00:00Z"
+    },
+    {
       "version": "1.0.0",
       "url": "https://raw.githubusercontent.com/htanh2002/nav_ota/main/releases/download/v1.0.0/nav_tft_s3.bin",
       "name": "nav_tft_s3.bin",
       "label": "NAV-TFT-S3 v1.0.0",
       "channel": "stable",
-      "notes": "Bản mới nhất, cập nhật map full qua openstreetmap, map offline từ sdcard",
+      "notes": "Cập nhật map full qua openstreetmap, map offline từ sdcard",
       "sha256": "",
       "size": 0,
       "releasedAt": "2026-04-01T10:00:00Z"
